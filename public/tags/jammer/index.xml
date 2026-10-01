@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jammer on -Nosebleed Customs</title>
+    <link>http://localhost:1313/tags/jammer/</link>
+    <description>Recent content in Jammer on -Nosebleed Customs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 30 Sep 2026 12:19:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/jammer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DIY 2.4GHz Device</title>
+      <link>http://localhost:1313/blogs/math/</link>
+      <pubDate>Wed, 30 Sep 2026 12:19:00 -0700</pubDate>
+      <guid>http://localhost:1313/blogs/math/</guid>
+      <description>DIY your own Jammer Math equations can be rendered using Mathjax syntax with AMS symbol support.&#xA;Optionally enable this on a per-page basis by adding mathjax: true to your frontmatter.&#xA;Then, use $$ ... $$ on a line by itself to render a block equation:&#xA;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&#xA;The raw version is:&#xA;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$ Write in-line equations with \\( .</description>
+    </item>
+  </channel>
+</rss>
