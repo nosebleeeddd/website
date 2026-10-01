@@ -785,7 +785,7 @@ params:
         image: /images/projects/jammer.jpg
         featured:
           name: Buy $120
-          link: https://github.com/nosebleeeddd/WiBlue-Watcher
+          link: https://buy.stripe.com/5kQ28q0BfdUg0Ms8Ard3i00
         badges:
           - "Custom Build"
           - "Firmware"
