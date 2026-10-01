@@ -875,8 +875,8 @@ params:
     enable: true
     title: "Contact Me"
     content: DM on instagram or Email me if you have any questions / build ideas.
-     btnName: Instagram
-     btnLink: https://instagram.com/nosebleeeddd
+    btnName: Instagram
+    btnLink: https://instagram.com/nosebleeeddd
     
 
     # formspree:
