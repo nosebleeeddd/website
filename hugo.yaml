@@ -577,8 +577,8 @@ params:
     button:
       enable: true
       name: "Email"
-      url: "#"
-      download: true
+      url: "mailto:wiccadoves777@gmail.com"
+      download: false
       newPage: false
     socialLinks:
       fontAwesomeIcons:
@@ -875,10 +875,8 @@ params:
     enable: true
     title: "Contact Me"
     content: DM on instagram or Email me if you have any questions / build ideas.
-    socialNetworks:
-      instagram: https://instagram.com
-    # btnName: Mail
-    # btnLink: mailto:wiccadoves777@gmail.com
+     btnName: Instagram
+     btnLink: https://instagram.com/nosebleeeddd
     
 
     # formspree:
@@ -910,7 +908,7 @@ params:
   singlePages:
     socialShare: false
     readTime:
-      enable: true
+      enable: false
       content: "min read"
     scrollprogress:
       enable: true
