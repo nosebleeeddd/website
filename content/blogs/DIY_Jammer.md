@@ -45,7 +45,7 @@ M3 Nut/Screw
 ```
 
 <div id="jam-fig" style="float:right;margin:0 0 20px 25px;width:240px;text-align:center;">
-<img id="jam-thumb" src="/images/jammer1.jpg" alt="Jammer Pic" style="width:100%;display:block;cursor:zoom-in;" data-images="/images/jammer1.jpg,/images/jammer1.jpg,/images/jammer2.jpg,/images/jammer3.jpg,/images/jammer4.jpg,/images/jammer2.4ghz.jpg" />
+<img id="jam-thumb" src="/website/images/jammer.jpg" alt="Jammer Pic" style="width:100%;display:block;cursor:zoom-in;" data-images="jammer.jpg,jammer1.jpg,jammer2.jpg,jammer3.jpg,jammer4.jpg,jammer2.4ghz.jpg" />
 <div id="jam-label" style="margin-top:6px;font-size:14px;opacity:.75;cursor:pointer;"></div>
 </div>
 <div id="jam-viewer" hidden>
@@ -77,9 +77,11 @@ M3 Nut/Screw
       viewer=document.getElementById('jam-viewer'),
       track=document.getElementById('jam-track'),
       count=document.getElementById('jam-count');
-  var urls=thumb.dataset.images.split(',');
-  label.textContent='1 / '+urls.length+' \u2013 click to view all';
-  urls.forEach(function(u){
+  var names=thumb.dataset.images.split(',');
+  var folder=thumb.src.substring(0,thumb.src.lastIndexOf('/')+1);
+  label.textContent='1 / '+names.length+' \u2013 click to view all';
+  names.forEach(function(n){
+    var u=folder+n;
     var s=document.createElement('div');s.className='slide';
     var i=document.createElement('img');i.src=u;i.alt='Jammer picture';
     i.onerror=function(){s.textContent='Could not load '+u;};
@@ -87,7 +89,7 @@ M3 Nut/Screw
   });
   function update(){
     var n=Math.round(track.scrollLeft/track.clientWidth)+1;
-    count.textContent=n+' / '+urls.length;
+    count.textContent=n+' / '+names.length;
   }
   function step(d){track.scrollBy({left:d*track.clientWidth,behavior:'smooth'});}
   function open(){
