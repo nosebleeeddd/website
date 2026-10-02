@@ -492,7 +492,7 @@ Menus:
 
 params:
   title: "Nosebleed CustomTech"
-  description: Text about my cool site
+  description: repair/build/mod anything
   # staticPath: ""  # The path to serve the static files from
   favicon: "/logo.png"
 
@@ -556,7 +556,7 @@ params:
     enableSeparator: false
     menus:
       disableAbout: false
-      disableExperience: false
+      disableExperience: true
       disableEducation: true
       disableProjects: false
       disableAchievements: true
@@ -569,21 +569,15 @@ params:
     title: "Custom."
     subtitle: "Builds/Mods/Repairs"
     content: "I design, build, repair, and modify hardware and software with a focus on cybersecurity, embedded systems, electronics, Linux, and networking. Whether you're looking for a custom device, hardware modification, console mod, electronics repair, or help troubleshooting a technical problem, I build practical solutions from the ground up."
-    image: /images/jammer.jpg
+    image: /images/me.jpg
     bottomImage:
       enable: false
       #roundImage: true # Make hero image circular | default false
     # ADDS A CLICKABLE BUTTON TO DOWNLOAD YOUR RESUME 
     button:
       enable: true
-      name: "Email"
+      name: "E-mail"
       url: "mailto:wiccadoves777@gmail.com"
-      download: false
-      newPage: false
-    button:
-      enable: true
-      name: "Buy me a Coffee"
-      url: "https://buymeacoffee.com/nosebleeeddd"
       download: false
       newPage: true
     socialLinks:
@@ -594,7 +588,7 @@ params:
           url: https://example.com
         - icon: fab fa-github
           url: https://github.com/nosebleeeddd
-        - icon: fab fa-buymeacoffee 
+        - icon: fab fa-circle-dollar-to-slot
           url: https://buymeacoffee.com/nosebleeeddd
 
       #  - icon: /fav.png
@@ -797,10 +791,10 @@ params:
           - "Firmware"
           
         links:
-          - icon: fa fa-envelope
-            url: mailto:wiccadoves777@gmail.com
           - icon: fab fa-instagram
             url: https://instagram.com/nosebleeeddd
+          - icon: fa fa-envelope
+            url: mailto:wiccadoves777@gmail.com
           # - icon: fab fa-twitter
           #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
@@ -829,10 +823,10 @@ params:
           - "Firmware"
           - "Pentest"
         links:
-          - icon: fa fa-envelope
-            url: mailto:wiccadoves777@gmail.com
           - icon: fab fa-instagram
             url: https://instagram.com/nosebleeeddd
+          - icon: fa fa-envelope
+            url: mailto:wiccadoves777@gmail.com
 
       - title: Custom Build
         content: ESP32 Devices, E-readers, Embedded Systems, Custom Electronics, Cybersecurity Hardware, etc...
@@ -846,10 +840,10 @@ params:
           - "Custom"
           - "Firmware"
         links:
-          - icon: fa fa-envelope
-            url: mailto:wiccadoves777@gmail.com
           - icon: fab fa-instagram
             url: https://instagram.com/nosebleeeddd
+          - icon: fa fa-envelope
+            url: mailto:wiccadoves777@gmail.com
 
       - title: Modding Services
         content: Console, Flipper Zero, Hardware, Custom Wiring, LED/Switch Mods, Firmware Mods
@@ -862,10 +856,10 @@ params:
           - "Computers"
           - "Firmware"
         links:
-          - icon: fa fa-envelope
-            url: mailto:wiccadoves777@gmail.com
           - icon: fab fa-instagram
             url: https://instagram.com/nosebleeeddd
+          - icon: fa fa-envelope
+            url: mailto:wiccadoves777@gmail.com
 
       - title: Repair Services
         content: Screen repairs, damaged connectors, Electronics, PCB/Soldering, Drone Assembly, Computer and phones, Diagnose Hardware. 
@@ -878,10 +872,10 @@ params:
           - "Computers"
           - "Soldering"
         links:
-          - icon: fa fa-envelope
-            url: mailto:wiccadoves777@gmail.com
           - icon: fab fa-instagram
             url: https://instagram.com/nosebleeeddd
+          - icon: fa fa-envelope
+            url: mailto:wiccadoves777@gmail.com
 
 
   #Contact
