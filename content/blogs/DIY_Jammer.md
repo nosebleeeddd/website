@@ -45,7 +45,7 @@ M3 Nut/Screw
 ```
 
 <div id="jam-fig" style="float:right;margin:0 0 20px 25px;width:240px;text-align:center;">
-<img id="jam-thumb" src="/images/jammer.jpg" alt="Jammer Pic" style="width:100%;display:block;cursor:zoom-in;" data-images="/images/jammer.jpg,/images/jammer1.jpg,/images/jammer2.jpg,/images/jammer3.jpg,/images/jammer4.jpg,/images/jammer2.4ghz.jpg" />
+<img id="jam-thumb" src="/images/jammer1.jpg" alt="Jammer Pic" style="width:100%;display:block;cursor:zoom-in;" data-images="/images/jammer1.jpg,/images/jammer1.jpg,/images/jammer2.jpg,/images/jammer3.jpg,/images/jammer4.jpg,/images/jammer2.4ghz.jpg" />
 <div id="jam-label" style="margin-top:6px;font-size:14px;opacity:.75;cursor:pointer;"></div>
 </div>
 <div id="jam-viewer" hidden>
