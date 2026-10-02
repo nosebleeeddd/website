@@ -44,7 +44,10 @@ PVC Board
 M3 Nut/Screw
 ```
 
-<img id="jam-thumb" src="/images/jammer.jpg" alt="Jammer Pic" style="float:right;margin:0 0 20px 25px;width:240px;cursor:zoom-in;" data-images="/images/jammer.jpg,/images/jammer1.jpg,/images/jammer2.jpg,/images/jammer3.jpg,/images/jammer4.jpg,/images/jammer2.4ghz.jpg" />
+<div id="jam-fig" style="float:right;margin:0 0 20px 25px;width:240px;text-align:center;">
+<img id="jam-thumb" src="/images/jammer.jpg" alt="Jammer Pic" style="width:100%;display:block;cursor:zoom-in;" data-images="/images/jammer.jpg,/images/jammer1.jpg,/images/jammer2.jpg,/images/jammer3.jpg,/images/jammer4.jpg,/images/jammer2.4ghz.jpg" />
+<div id="jam-label" style="margin-top:6px;font-size:14px;opacity:.75;cursor:pointer;"></div>
+</div>
 <div id="jam-viewer" hidden>
 <button id="jam-close" aria-label="Close gallery">&times;</button>
 <button id="jam-prev" aria-label="Previous picture">&#8249;</button>
@@ -57,7 +60,7 @@ M3 Nut/Screw
 #jam-viewer[hidden]{display:none}
 #jam-track{display:flex;width:100%;height:100%;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
 #jam-track::-webkit-scrollbar{display:none}
-#jam-track .slide{flex:0 0 100%;height:100%;scroll-snap-align:center;display:flex;align-items:center;justify-content:center;padding:48px 56px;box-sizing:border-box}
+#jam-track .slide{flex:0 0 100%;height:100%;scroll-snap-align:center;display:flex;align-items:center;justify-content:center;padding:48px 56px;box-sizing:border-box;color:#fff;font:16px sans-serif}
 #jam-track img{max-width:100%;max-height:100%;object-fit:contain}
 #jam-viewer button{position:absolute;z-index:2;background:rgba(255,255,255,.12);color:#fff;border:0;cursor:pointer;font-size:32px;line-height:1;width:44px;height:44px;border-radius:50%}
 #jam-viewer button:hover,#jam-viewer button:focus-visible{background:rgba(255,255,255,.3);outline:none}
@@ -70,13 +73,16 @@ M3 Nut/Screw
 <script>
 (function(){
   var thumb=document.getElementById('jam-thumb'),
+      label=document.getElementById('jam-label'),
       viewer=document.getElementById('jam-viewer'),
       track=document.getElementById('jam-track'),
       count=document.getElementById('jam-count');
   var urls=thumb.dataset.images.split(',');
+  label.textContent='1 / '+urls.length+' \u2013 click to view all';
   urls.forEach(function(u){
     var s=document.createElement('div');s.className='slide';
-    var i=document.createElement('img');i.src=u;i.alt='Jammer picture';i.loading='lazy';
+    var i=document.createElement('img');i.src=u;i.alt='Jammer picture';
+    i.onerror=function(){s.textContent='Could not load '+u;};
     s.appendChild(i);track.appendChild(s);
   });
   function update(){
@@ -89,8 +95,9 @@ M3 Nut/Screw
     track.scrollLeft=0;update();
     document.getElementById('jam-close').focus();
   }
-  function close(){viewer.hidden=true;document.body.style.overflow='';thumb.focus&&thumb.focus();}
+  function close(){viewer.hidden=true;document.body.style.overflow='';}
   thumb.addEventListener('click',open);
+  label.addEventListener('click',open);
   document.getElementById('jam-close').addEventListener('click',close);
   document.getElementById('jam-prev').addEventListener('click',function(){step(-1);});
   document.getElementById('jam-next').addEventListener('click',function(){step(1);});
