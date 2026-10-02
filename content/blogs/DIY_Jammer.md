@@ -44,7 +44,7 @@ PVC Board
 M3 Nut/Screw
 ```
 
-![Jammer Pic](../../website/static/images/jammer.jpg)   
+![Jammer Pic](/images/jammer.jpg)   
 
 ### NOTES:
 For the 0.96 Display I bent female header pins to make a socket, 
