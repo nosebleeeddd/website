@@ -491,7 +491,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
+  title: "Nosebleed CustomTech"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "/logo.png"
@@ -517,7 +517,7 @@ params:
     # defaultTheme: "light" # dark
 
   font:
-    fontSize: 1rem # default: 1rem
+    fontSize: 1.18rem # default: 1rem
     fontWeight: 400 # default: 400
     lineHeight: 1.5 # default: 1.5
     textAlign: left # default: left
