@@ -45,7 +45,7 @@ M3 Nut/Screw
 ```
 
 <div id="jam-fig" style="float:right;margin:0 0 20px 25px;width:240px;text-align:center;">
-<img id="jam-thumb" src="/website/images/jammer.jpg" alt="Jammer Pic" style="width:100%;display:block;cursor:zoom-in;" data-images="jammer.jpg,jammer1.jpg,jammer2.jpg,jammer3.jpg,jammer4.jpg,jammer2.4ghz.jpg" />
+<img id="jam-thumb" src="https://nosebleeeddd.github.io/website/images/jammer.jpg" alt="Jammer Pic" style="width:100%;display:block;cursor:zoom-in;" data-images="https://nosebleeeddd.github.io/website/images/jammer.jpg,https://nosebleeeddd.github.io/website/images/jammer1.jpg,https://nosebleeeddd.github.io/website/images/jammer2.jpg,https://nosebleeeddd.github.io/website/images/jammer3.jpg,https://nosebleeeddd.github.io/website/images/jammer4.jpg,https://nosebleeeddd.github.io/website/images/jammer2.4ghz.jpg" />
 <div id="jam-label" style="margin-top:6px;font-size:14px;opacity:.75;cursor:pointer;"></div>
 </div>
 <div id="jam-viewer" hidden>
@@ -56,13 +56,14 @@ M3 Nut/Screw
 <div id="jam-count"></div>
 </div>
 <style>
-#jam-viewer{position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.95);display:flex}
+#jam-viewer{position:fixed;inset:0;z-index:99999;background:rgba(0,0,0,.95);display:flex}
 #jam-viewer[hidden]{display:none}
 #jam-track{display:flex;width:100%;height:100%;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
 #jam-track::-webkit-scrollbar{display:none}
-#jam-track .slide{flex:0 0 100%;height:100%;scroll-snap-align:center;display:flex;align-items:center;justify-content:center;padding:48px 56px;box-sizing:border-box;color:#fff;font:16px sans-serif}
-#jam-track img{max-width:100%;max-height:100%;object-fit:contain}
-#jam-viewer button{position:absolute;z-index:2;background:rgba(255,255,255,.12);color:#fff;border:0;cursor:pointer;font-size:32px;line-height:1;width:44px;height:44px;border-radius:50%}
+#jam-track .slide{flex:0 0 100%;height:100%;scroll-snap-align:center;display:flex;align-items:center;justify-content:center;padding:48px 56px;box-sizing:border-box;position:relative;color:#fff;font:16px sans-serif}
+#jam-track .msg{position:absolute;left:0;right:0;top:50%;text-align:center;transform:translateY(-50%)}
+#jam-track .slide img{position:relative;z-index:1;display:block!important;width:auto!important;height:auto!important;max-width:100%!important;max-height:calc(100vh - 96px)!important;object-fit:contain;margin:0!important;opacity:1!important;border-radius:0!important}
+#jam-viewer button{position:absolute;z-index:3;background:rgba(255,255,255,.12);color:#fff;border:0;cursor:pointer;font-size:32px;line-height:1;width:44px;height:44px;border-radius:50%;padding:0}
 #jam-viewer button:hover,#jam-viewer button:focus-visible{background:rgba(255,255,255,.3);outline:none}
 #jam-close{top:12px;right:12px}
 #jam-prev{left:10px;top:50%;transform:translateY(-50%)}
@@ -77,19 +78,20 @@ M3 Nut/Screw
       viewer=document.getElementById('jam-viewer'),
       track=document.getElementById('jam-track'),
       count=document.getElementById('jam-count');
-  var names=thumb.dataset.images.split(',');
-  var folder=thumb.src.substring(0,thumb.src.lastIndexOf('/')+1);
-  label.textContent='1 / '+names.length+' \u2013 click to view all';
-  names.forEach(function(n){
-    var u=folder+n;
+  var urls=thumb.dataset.images.split(',');
+  label.textContent='1 / '+urls.length+' \u2013 click to view all';
+  urls.forEach(function(u){
     var s=document.createElement('div');s.className='slide';
-    var i=document.createElement('img');i.src=u;i.alt='Jammer picture';
-    i.onerror=function(){s.textContent='Could not load '+u;};
-    s.appendChild(i);track.appendChild(s);
+    var m=document.createElement('div');m.className='msg';m.textContent='Loading\u2026';
+    var i=document.createElement('img');i.alt='Jammer picture';
+    i.onload=function(){m.remove();};
+    i.onerror=function(){m.textContent='Could not load '+u;i.remove();};
+    i.src=u;
+    s.appendChild(m);s.appendChild(i);track.appendChild(s);
   });
   function update(){
     var n=Math.round(track.scrollLeft/track.clientWidth)+1;
-    count.textContent=n+' / '+names.length;
+    count.textContent=n+' / '+urls.length;
   }
   function step(d){track.scrollBy({left:d*track.clientWidth,behavior:'smooth'});}
   function open(){
