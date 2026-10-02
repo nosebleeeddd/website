@@ -569,7 +569,7 @@ params:
     title: "Custom."
     subtitle: "Builds/Mods/Repairs"
     content: "I design, build, repair, and modify hardware and software with a focus on cybersecurity, embedded systems, electronics, Linux, and networking. Whether you're looking for a custom device, hardware modification, console mod, electronics repair, or help troubleshooting a technical problem, I build practical solutions from the ground up."
-    image: /images/me.jpg
+    image: /images/frontPagePics.jpg
     bottomImage:
       enable: false
       #roundImage: true # Make hero image circular | default false
@@ -584,11 +584,11 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-instagram
           url: https://www.instagram.com/nosebleeeddd
-        - icon: fa-solid fa-store
-          url: https://example.com
+        # - icon: fa-solid fa-store
+        #   url: https://example.com
         - icon: fab fa-github
           url: https://github.com/nosebleeeddd
-        - icon: fab fa-circle-dollar-to-slot
+        - icon: fa-solid fa-circle-dollar-to-slot
           url: https://buymeacoffee.com/nosebleeeddd
 
       #  - icon: /fav.png
