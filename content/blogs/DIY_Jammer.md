@@ -1,5 +1,5 @@
 ---
-title: "DIY 2.4GHz Device"
+title: "DIY 2.4GHz Signal Jammer"
 date: 2026-09-30T12:19:00-07:00
 draft: false
 author: "nosebleeeddd"
@@ -13,11 +13,16 @@ toc: true
 mathjax: false
 ---
 
-## DIY Signal Jammer
+## Flashing Firmware
 
 This schematic is compatible with the EmenstaV1 Firmware on Github.
+Use the web flasher to flash the firmware to ESP32, 
+
+hold down boot to enable flasher.
+
 
 Disrupts up to 10 meters.
+
 Upgrade NRF24 to E01-ML01DP5 for longer range disruption!
 
 ### Build Materials:
@@ -38,6 +43,8 @@ Button x1
 PVC Board
 M3 Nut/Screw
 ```
+
+![Jammer Pic](../../website/static/images/jammer.jpg)   
 
 ### NOTES:
 For the 0.96 Display I bent female header pins to make a socket, 
