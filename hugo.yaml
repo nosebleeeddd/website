@@ -792,11 +792,11 @@ params:
           
         links:
           - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/nosebleeeddd/WiBlue-Watcher
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: mailto:wiccadoves777@gmail.com
+          - icon: fab fa-instagram
+            url: https://instagram.com/nosebleeeddd
+          # - icon: fab fa-twitter
+          #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
       # - title: WiFi Analyzer
       #   content: A compact, standalone ESP32-based Wi-Fi and Bluetooth security-analysis handheld, designed to put wireless reconnaissance, packet analysis, GPS/wardriving, and SD-card logging into a small portable device.
@@ -823,8 +823,10 @@ params:
           - "Firmware"
           - "Pentest"
         links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - icon: fa fa-envelope
+            url: mailto:wiccadoves777@gmail.com
+          - icon: fab fa-instagram
+            url: https://instagram.com/nosebleeeddd
 
       - title: Custom Build
         content: ESP32 Devices, E-readers, Embedded Systems, Custom Electronics, Cybersecurity Hardware, etc...
@@ -838,8 +840,10 @@ params:
           - "Custom"
           - "Firmware"
         links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - icon: fa fa-envelope
+            url: mailto:wiccadoves777@gmail.com
+          - icon: fab fa-instagram
+            url: https://instagram.com/nosebleeeddd
 
       - title: Modding Services
         content: Console, Flipper Zero, Hardware, Custom Wiring, LED/Switch Mods, Firmware Mods
@@ -852,8 +856,10 @@ params:
           - "Computers"
           - "Firmware"
         links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - icon: fa fa-envelope
+            url: mailto:wiccadoves777@gmail.com
+          - icon: fab fa-instagram
+            url: https://instagram.com/nosebleeeddd
 
       - title: Repair Services
         content: Screen repairs, damaged connectors, Electronics, PCB/Soldering, Drone Assembly, Computer and phones, Diagnose Hardware. 
@@ -866,15 +872,17 @@ params:
           - "Computers"
           - "Soldering"
         links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - icon: fa fa-envelope
+            url: mailto:wiccadoves777@gmail.com
+          - icon: fab fa-instagram
+            url: https://instagram.com/nosebleeeddd
 
 
   #Contact
   contact:
     enable: true
     title: "Contact Me"
-    content: DM on instagram or Email me if you have any questions / build ideas.
+    content: DM on instagram or Email me if you have any questions.
     btnName: Instagram
     btnLink: https://instagram.com/nosebleeeddd
     
