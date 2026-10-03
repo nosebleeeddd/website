@@ -588,7 +588,7 @@ params:
         #   url: https://example.com
         - icon: fab fa-github
           url: https://github.com/nosebleeeddd
-        - icon: fa-light fa-circle-dollar-to-slot
+        - icon: fa-solid fa-dollar-sign
           url: https://buymeacoffee.com/nosebleeeddd
 
       #  - icon: /images/frontPagePics.png
