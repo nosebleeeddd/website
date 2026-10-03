@@ -5,6 +5,13 @@
     font-family: "Pirata One", serif;
 }
 
+/* FONT SIZE H5 */
+h5,
+.h5 {
+    font-size: 1.75rem !important; /* 24px */
+}
+
+
 /* Default font for body */
 body {
     font-family: "Lora", serif !important;
