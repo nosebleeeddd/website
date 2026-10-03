@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Lora&family=Roboto&display=swap');   
 
 /* Gothic display font for headings */
-.gothic-font, #gothic-font, h1, h2, h3 {
+.gothic-font, #gothic-font, h1, h2, h3, h5 {
     font-family: "Pirata One", serif;
 }
 
