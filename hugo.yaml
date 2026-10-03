@@ -568,7 +568,7 @@ params:
     intro: "DM on Instagram or Email for a quote."
     title: "Custom."
     subtitle: "Builds/Mods/Repairs"
-    content: "I design, build, repair, and modify hardware and software with a focus on cybersecurity, embedded systems, electronics, Linux, and networking. Whether you're looking for a custom device, hardware modification, console mod, electronics repair, or help troubleshooting a technical problem, I build practical solutions from the ground up."
+    content: "I design, build, repair, and modify hardware and software with a focus on cybersecurity, embedded systems, electronics, Linux, and networking. Whether you're looking for a custom device, hardware modification, console mod, electronics repair, or help troubleshooting a technical problem, I build practical/affordable solutions from the ground up."
     image: /images/frontPagePics.png
     bottomImage:
       enable: false
@@ -601,13 +601,14 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I'm a cybersecurity enthusiast and hands-on technologist who likes understanding how things work at every layer — from software and networks down to firmware, electronics, and RF.
+      I'm a hands-on technologist specializing in cybersecurity, Linux, networking, embedded systems, electronics, and hardware. 
+      
+      I build, repair, modify, and troubleshoot technology ranging from custom electronics and ESP32 devices to computers, networking equipment, and cybersecurity hardware. 
+      
+      My approach is simple: understand how something works, figure out what's needed, and build the right solution. 
+      
+      **Have an idea, a problem, or something that needs fixing? I can build it, modify it, or help make it work.**
 
-      My background is primarily in Linux, cybersecurity, networking, embedded systems, and hardware. I've worked with penetration testing and CTFs, SOC-related security, PowerShell, Python, C/C++, ESP32 development, custom electronics, radio systems, and network infrastructure.
-
-      A lot of my projects start with a simple question: "What happens if I build it myself?" That has led me into firmware development, PCB design, soldering, RF experimentation, custom cybersecurity hardware, and Linux-based tooling.
-
-      I document the things I build, break, learn, and figure out along the way.
 
     skills:
       enable: true
