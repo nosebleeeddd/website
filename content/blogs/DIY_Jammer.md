@@ -13,12 +13,12 @@ toc: true
 mathjax: false
 ---
 
-## Flashing Firmware
+## Summary
 
-This schematic is compatible Firmware on Github.
+This schematic is compatible the Emensta Firmware on Github.
 Use the web flasher to flash the firmware to ESP32, 
 
-hold down boot to enable flasher.
+Hold down boot to enable flash mode.
 
 Disrupts up to 10 meters.
 
