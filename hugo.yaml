@@ -777,25 +777,25 @@ params:
   #      url: https://example.com
 
   # projects
-  projects:
-    enable: true
-    title: "Builds/Services"
-    items:
-      - title: Esp32 2.4ghz Device
-        content: This 2.4ghz Device is a portable RF interference system designed to disrupt wireless communications by transmitting interference across selected radio-frequency bands.(WiFi,Bluetooth,Drones)
-        image: /images/projects/jammer.jpg
-        featured:
-          name: Buy $120
-          link: https://buy.stripe.com/5kQ28q0BfdUg0Ms8Ard3i00
-        badges:
-          - "Custom Build"
-          - "Firmware"
+  # projects:
+  #   enable: true
+  #   title: "Builds/Services"
+  #   items:
+  #     - title: Esp32 2.4ghz Jammer
+  #       content: This 2.4ghz Device is a portable RF interference system designed to disrupt wireless communications by transmitting interference across selected radio-frequency bands.(WiFi,Bluetooth,Drones)
+  #       image: /images/projects/jammer.jpg
+  #       featured:
+  #         name: Buy $120
+  #         link: https://buy.stripe.com/5kQ28q0BfdUg0Ms8Ard3i00
+  #       badges:
+  #         - "Custom Build"
+  #         - "Firmware"
           
-        links:
-          - icon: fab fa-instagram
-            url: https://instagram.com/nosebleeeddd
-          - icon: fa fa-envelope
-            url: mailto:wiccadoves777@gmail.com
+  #       links:
+  #         - icon: fab fa-instagram
+  #           url: https://instagram.com/nosebleeeddd
+  #         - icon: fa fa-envelope
+  #           url: mailto:wiccadoves777@gmail.com
           # - icon: fab fa-twitter
           #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
@@ -813,21 +813,21 @@ params:
       #     - icon: fab fa-github
       #       url: https://github.com/gurusabarish/converter
 
-      - title: BW16 Dualband 
-        content: A portable dual-band Wi-Fi device/security-testing firmware for the RTL8720DN BW16, featuring a small TFT interface and physical buttons for controlled wireless testing on 2.4 GHz and 5 GHz networks.
-        image: /images/projects/deauther.jpg
-        featured:
-          name: Buy $45
-          link: https://buy.stripe.com/dRmcN44Rv7vSgLqg2Td3i01
-        badges:
-          - "Custom Build"
-          - "Firmware"
-          - "Pentest"
-        links:
-          - icon: fab fa-instagram
-            url: https://instagram.com/nosebleeeddd
-          - icon: fa fa-envelope
-            url: mailto:wiccadoves777@gmail.com
+      # - title: BW16 Dualband 
+      #   content: A portable dual-band Wi-Fi device/security-testing firmware for the RTL8720DN BW16, featuring a small TFT interface and physical buttons for controlled wireless testing on 2.4 GHz and 5 GHz networks.
+      #   image: /images/projects/deauther.jpg
+      #   featured:
+      #     name: Buy $45
+      #     link: https://buy.stripe.com/dRmcN44Rv7vSgLqg2Td3i01
+      #   badges:
+      #     - "Custom Build"
+      #     - "Firmware"
+      #     - "Pentest"
+      #   links:
+      #     - icon: fab fa-instagram
+      #       url: https://instagram.com/nosebleeeddd
+      #     - icon: fa fa-envelope
+      #       url: mailto:wiccadoves777@gmail.com
 
       - title: Custom Build
         content: ESP32 Devices, E-readers, Embedded Systems, Custom Electronics, Cybersecurity Hardware, etc...
