@@ -832,7 +832,7 @@ params:
       - title: Custom Build
         content: ESP32 Devices, E-readers, Embedded Systems, Custom Electronics, Cybersecurity Hardware, etc...
               I can build your ideas!
-        image: /images/projects/devices.jpg
+        image: /images/projects/devices.png
         featured:
           name: Quote
           link: https://forms.gle/RcQSBGrNuc74FRmt9
