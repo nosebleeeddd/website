@@ -8,18 +8,17 @@ tags:
   - Soldering
   - Jammer
 image: /images/jammer2.4ghz.jpg
-description: "asdad"
+description: ""
 toc: true
 mathjax: false
 ---
 
 ## Flashing Firmware
 
-This schematic is compatible with the EmenstaV1 Firmware on Github.
+This schematic is compatible Firmware on Github.
 Use the web flasher to flash the firmware to ESP32, 
 
 hold down boot to enable flasher.
-
 
 Disrupts up to 10 meters.
 
