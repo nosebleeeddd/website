@@ -777,10 +777,10 @@ params:
   #      url: https://example.com
 
   # projects
-  # projects:
-  #   enable: true
-  #   title: "Builds/Services"
-  #   items:
+  projects:
+    enable: true
+    title: "Builds/Services"
+    items:
   #     - title: Esp32 2.4ghz Jammer
   #       content: This 2.4ghz Device is a portable RF interference system designed to disrupt wireless communications by transmitting interference across selected radio-frequency bands.(WiFi,Bluetooth,Drones)
   #       image: /images/projects/jammer.jpg
