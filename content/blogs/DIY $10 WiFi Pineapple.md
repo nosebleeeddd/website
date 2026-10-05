@@ -1,18 +1,18 @@
 ---
 title: "DIY $10 WiFi Pineapple"
-date: 2021-04-03T22:53:58+05:30
+date:
 draft: false
 github_link: ""
-author: "Gurusabarish"
+author: "nosebleeeddd"
 tags:
-  - Emoji support
-  - Sample
-  - example
-image: /images/post.jpg
-description: ""
+  - Firmware
+  - Easy
+  - Router
+image: /images/rtAC51u.jpg
+description: "Using the ASUS RT-AC51U Router"
 toc: 
 ---
 
 ## COMING SOON
-
-
+List of OpenWrt compatible devices:
+https://github.com/xchwarze/wifi-pineapple-cloner/blob/master/devices.md
