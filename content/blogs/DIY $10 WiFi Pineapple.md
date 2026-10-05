@@ -14,4 +14,7 @@ toc:
 ---
 
 ## COMING SOON
-List of OpenWrt compatible devices: [Here](https://github.com/xchwarze/wifi-pineapple-cloner/blob/master/devices.md){:target="_blank"}
+List of OpenWrt compatible devices: 
+<a href="https://github.com/xchwarze/wifi-pineapple-cloner/blob/master/devices.md" target="_blank" rel="noopener noreferrer">
+  View List Here
+</a>
