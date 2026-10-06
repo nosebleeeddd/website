@@ -568,7 +568,7 @@ params:
     intro: "DM on Instagram or Email for a quote."
     title: "Custom."
     subtitle: "Builds/Mods/Repairs"
-    content: "I design, build, repair, and modify hardware and software with a focus on cybersecurity, embedded systems, electronics, Linux, and networking. Whether you're looking for a custom device, hardware modification, console mod, electronics repair, or help troubleshooting a technical problem, I build practical/affordable solutions from the ground up.     (US Shipping Only at the moment!)"
+    content: "I design, build, repair, and modify hardware and software with a focus on cybersecurity, embedded systems, electronics, Linux, and networking. Whether you're looking for a custom device, hardware modification, console mod, electronics repair, or help troubleshooting a technical problem, I build practical/affordable solutions from the ground up. &nbsp;&nbsp;&nbsp;&nbsp;(US Shipping Only at the moment!)"
     image: /images/frontPagePics.png
     bottomImage:
       enable: false
