@@ -822,7 +822,7 @@ params:
         badges:
           - "Custom Build"
           - "Jammer"
-          - "v2"
+          - "+Range"
         links:
           - icon: fab fa-instagram
             url: https://instagram.com/nosebleeeddd
@@ -830,7 +830,7 @@ params:
             url: mailto:wiccadoves777@gmail.com
 
       - title: Custom Build
-        content: ESP32 Devices, E-readers, Custom Electronics, Cybersecurity Hardware, Drones, Wardrivers, etc...
+        content: Custom code, Devices, E-readers, Custom Electronics, Cybersecurity Hardware, Drones, Wardrivers, etc...
               I can build your ideas!
         image: /images/projects/frontPagePics_324x324.png
         featured:
