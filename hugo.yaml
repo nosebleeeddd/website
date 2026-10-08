@@ -813,8 +813,8 @@ params:
       #     - icon: fab fa-github
       #       url: https://github.com/gurusabarish/converter
 
-      - title: Esp32 2.4GHz Jammer Upgrade
-        content: This 2.4GHz Device is a portable RF interference system designed to disrupt WiFi,Bluetooth,Drones. Upgraded with 8dbi antennas and Long Range NRF24 Modules hosted on a 5GHz web-interface.
+      - title: 2.4GHz Jammer Upgrade
+        content: This 2.4GHz Device is a portable RF interference system designed to disrupt WiFi,Bluetooth,Drones. Upgraded with 8dbi antennas and Long Range NRF24 Modules.
         image: /images/projects/jammerOFF.png
         featured:
           name: Buy $170
