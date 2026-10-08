@@ -781,8 +781,8 @@ params:
     enable: true
     title: "Builds/Services"
     items:
-      - title: Esp32 2.4ghz Jammer
-        content: This 2.4ghz Device is a portable RF interference system designed to disrupt wireless communications by transmitting interference across selected radio-frequency bands.(WiFi,Bluetooth,Drones)
+      - title: Esp32 2.4GHz Jammer
+        content: This 2.4GHz Device is a portable RF interference system designed to disrupt wireless communications by transmitting interference across selected radio-frequency bands.(WiFi,Bluetooth,Drones)
         image: /images/projects/jammerOFF.png
         featured:
           name: Buy $120
@@ -814,7 +814,7 @@ params:
       #       url: https://github.com/gurusabarish/converter
 
       - title: Esp32 2.4GHz Jammer Upgrade
-        content: This 2.4ghz Device is a portable RF interference system designed to disrupt WiFi,Bluetooth,Drones. Upgraded with 8dbi antennas and Long Range NRF24 Modules hosted on a 5GHz web-interface.
+        content: This 2.4GHz Device is a portable RF interference system designed to disrupt WiFi,Bluetooth,Drones. Upgraded with 8dbi antennas and Long Range NRF24 Modules hosted on a 5GHz web-interface.
         image: /images/projects/jammerOFF.png
         featured:
           name: Buy $170
